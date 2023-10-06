@@ -50,15 +50,6 @@ public class Library {
                     }
                 }
             }
-
-
-//        for(int i=0;i< list.length;i++)
-//        {
-//            if((!list[i].isBorrowed())&&(list[i]!=null))
-//            {
-//                System.out.println(list[i]);
-//            }
-//        }
     }
     public void displayBorrowedItems()
     {
@@ -76,12 +67,5 @@ public class Library {
         {
             System.out.println("No Books Borrowed");
         }
-//        for(int i=0;i< list.length;i++)
-//        {
-//            if((list[i].isBorrowed()==true)&&(list[i]!=null))
-//            {
-//                System.out.println(list[i]);
-//            }
-//        }
     }
 }
